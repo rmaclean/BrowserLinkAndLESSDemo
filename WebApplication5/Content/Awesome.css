@@ -1,0 +1,9 @@
+﻿.demo {
+  font-family: 'Segoe UI';
+  font-weight: lighter;
+  font-size: 22px;
+  color: slateblue;
+}
+.unused {
+  color: black;
+}
