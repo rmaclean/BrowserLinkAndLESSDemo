@@ -58,12 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Awesome.less" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Awesome.css">
@@ -73,6 +67,8 @@
       <DependentUpon>Awesome.less</DependentUpon>
     </Content>
     <Content Include="default.aspx" />
+    <Content Include="Scripts\less-1.4.2.js" />
+    <Content Include="Scripts\less-1.4.2.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +80,9 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
